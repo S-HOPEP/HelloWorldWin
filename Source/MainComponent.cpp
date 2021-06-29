@@ -17,8 +17,8 @@ void MainComponent::paint (juce::Graphics& g)
     g.fillAll (getLookAndFeel().findColour (juce::ResizableWindow::backgroundColourId));
 
     g.setFont (juce::Font (30.0f));
-    g.setColour (juce::Colours::white);
-    g.drawText ("Hello World! By S-Hope", getLocalBounds(), juce::Justification::centred, true);
+    g.setColour (juce::Colours::yellow);
+    g.drawText ("H E L L O  W O R L D  U W U", getLocalBounds(), juce::Justification::centred, true);
 }
 
 void MainComponent::resized()
